@@ -64,12 +64,12 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-|      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | real life goes in first box | app example goes in 2nd |
-|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-|      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
-|      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
-|      | A widget that shows things side-by-side. | `Row(...)` |  |  |
-|      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+|   main   | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` | starting a car | void main() => runApp(MyPortfolioApp()); |
+|   material app   | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` | Front cover | return MaterialApp( debugShowCheckedModeBanner: false, title: 'TSA Portfolio', theme: ThemeData( |
+|   Scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` | Design structure for a billboard | return Scaffold( body: Column( |
+|   Column   | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` | Pallets stacked on top of each other | body: Column(mainAxisAlignment: MainAxisAlignment.start,children: [ |
+|   Row   | A widget that shows things side-by-side. | `Row(...)` | Road signs | child: Row( children: [ |
+|   Container   | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
 |      | A widget to display text on the screen. | `Text('Hello')` |  |  |
 |      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
 |      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
